@@ -1,0 +1,105 @@
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:04:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:04:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:04:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:04:31] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:04:31] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:04:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:06:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:06:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:06:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:06:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:06:43] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:06:43] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:06:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:13:25] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:13:25] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:13:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:13:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:13:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:13:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:13:51] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:13:51] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [19/Jul/2023 14:13:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:24:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:24:20] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:24:20] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:24:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:24:38] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:24:38] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:24:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:25:48] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:25:48] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:25:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:28:54] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:28:54] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:28:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:29:39] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:29:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:29:39] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:30:15] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:30:15] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:30:15] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:30:43] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:30:43] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:30:43] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:31:01] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:31:01] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:31:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:31:38] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:31:38] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [20/Jul/2023 23:31:38] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0

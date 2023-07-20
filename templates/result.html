@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Detail Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+  <div class="table-users">
+   <div class="header">Details</div>
+
+   <table cellspacing="0">
+      <tr>
+         <th>Title</th>
+         <th>Video Link</th>
+         <th>Video Thumbnails</th>
+         <th>Views</th>
+         <th>Posting Date</th>
+      </tr>
+         {% for detail in details %}
+      <tr>
+          <td>{{detail['Title']}}</td>
+         <td>{{detail['Video_Link']}}</td>
+         <td>{{detail['Video_Thumbnails']}}</td>
+         <td>{{detail['Views']}}</td>
+         <td>{{detail['Posting_date']}} </td>
+       {% endfor %}
+   </table>
+</div>
+
+
+
+</body>
+
+</html>

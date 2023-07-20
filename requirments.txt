@@ -1,0 +1,9 @@
+google-api-python-client
+pandas
+seaborn
+ipykernel
+flask
+flask_cors
+requests
+bs4
+pymongo==3.11
