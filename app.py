@@ -1,3 +1,4 @@
+#run cmnd "pip install -r requirments.txt" before run app.py file
 #Required libraries
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS,cross_origin
@@ -75,13 +76,13 @@ def uplod_mongo(data):
 
 #Create a the homepage
 @app.route('/', methods = ['GET'])
-@cross_origin
+@cross_origin()
 def home_page():
     return render_template('index.html')
 
 #extract details and show on result.html page
 @app.route('/details', methods = ['GET','POST'])
-@cross_origin
+@cross_origin()
 def index():
     if request.method == 'POST':
         try:
@@ -109,7 +110,9 @@ def index():
                 uplod_mongo(video_details)
             except Exception as e:
                 logging.info(e)
-                return print('Please check your mongoDB client Link in "uplod_mongo" function')
+                return print('''Please check your mongoDB client Link in "uplod_mongo" function
+                             If you still geting and error just comment out "uplod_mongo(video_details)"
+                             with try and except code''')
             
             #Showing Result on Web Page
             return render_template('result.html', details = video_details) 
